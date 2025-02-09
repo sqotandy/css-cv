@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: blanchedalmond;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", serif;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+a:visited {
+    color: grey;
+}
+
+.Haru {
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25)
+}
+
+.info {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: rgb(122, 124, 126);
+    margin: 0;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize */
+    letter-spacing: 0px;
+    /* word-spacing: 11px; */
+}
+
+.card {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h3{
+    margin-bottom: 15px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.list {
+    padding: 0 20px;
+    /* list-style: none; */
+}
+
+.list li {
+    color: grey;
+    margin-bottom: 5px;
+    /* border-bottom: solid ; */
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: grey;     
+}
+
+.list-link {
+    list-style: none;
+    padding: 15px;
+}
+
+.list-link li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid grey; */
+    text-align: left;
+}
+
+.contact h3 {
+    text-align: center;
+    padding-top: 4px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;   
+    color: #0f141e;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row >.form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row >.form-group:last-child {
+    margin-right: 0px;
+}
+.btn {
+    background: #0f141e;
+    padding: 15px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.btn:active {
+    opacity: 0.7;
+}
+
+
+/* box model */
+
+.container {
+    max-width: 2560px;
+    margin: auto;
+}
+
+/* .social {
+    background-color: bisque;
+    padding: 5px 30px;
+    border: 5px solid orange;
+    margin: 10px 5px;
+    border-top-width: 10px ;
+}
+
+/* .box-model > div {
+    background-color: rgb(168, 201, 201);
+    height: 200px; 
+    width: 25%;
+    float: left;
+    border: 4px red solid;
+    box-sizing: border-box;
+} */ 
+
+/* position */
+/* .position {
+    border: 2px solid red;
+    position: relative;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 3%;
+    bottom: 100px;
+    background: coral;
+    border-radius: 50%;
+} */
